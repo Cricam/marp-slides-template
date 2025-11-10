@@ -17,10 +17,11 @@ footer: 'https://Nimok.com'
 - ¿Cómo se la hace seguimiento?
 
 > Deben tener un acompañamiento al inicio
-<!-- Can have multiple on a slide -->
+<!-- Can have multiple on a slide 
 - Hello
 - World
 - New
+-->
 ---
 
 ## 3. Speaker notes and images
