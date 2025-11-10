@@ -1,22 +1,26 @@
 ---
 marp: true
 theme: custom-default
-footer: 'https://example.com'
+footer: 'https://Nimok.com'
 ---
 
-# 1. Sample Presentation
+# 1. Gobierno Cloud
 ![bg right](https://picsum.photos/800/600)
 
 ---
 
 <!-- Speaker Notes -->
-## 2. Speaker nots and Lists
+## 2. Gobierno Cloud
 
-- Item 1
-- Item 2
-- Item 3
+- ¿Para qué sirve?
+- ¿Como se organización?
+- ¿Cómo se la hace seguimiento?
+
+> Deben tener un acompañamiento al inicio
 <!-- Can have multiple on a slide -->
-
+- Hello
+- World
+- New
 ---
 
 ## 3. Speaker notes and images
