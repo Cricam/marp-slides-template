@@ -44,6 +44,42 @@ For additional themes, add them to the devcontainer and follow the [Marp custom 
 2. Select `Source`: `GitHub Actions`.
 3. If any Actions failed, go to the `Actions` tab and click on `Re-run jobs`.
 
+## Docker Deployment
+
+### Quick Start with Docker Compose
+
+1. Build and run the container:
+   ```bash
+   docker-compose up -d
+   ```
+
+2. Access your slides at: `http://localhost:8080`
+
+3. Stop the container:
+   ```bash
+   docker-compose down
+   ```
+
+### Manual Docker Build
+
+1. Build the Docker image:
+   ```bash
+   docker build -t marp-slides .
+   ```
+
+2. Run the container:
+   ```bash
+   docker run -d -p 8080:8080 --name marp-slides-app marp-slides
+   ```
+
+3. Access your slides at: `http://localhost:8080`
+
+4. Stop and remove the container:
+   ```bash
+   docker stop marp-slides-app
+   docker rm marp-slides-app
+   ```
+
 ## Local Build and Preview
 
 1. Install [Visual Studio Code](https://code.visualstudio.com/).

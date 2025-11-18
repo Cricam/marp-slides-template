@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  marp-slides:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: marp-slides-presentation
+    ports:
+      - "8080:8080"
+    restart: unless-stopped
+    volumes:
+      # Optional: Mount slides directory for live editing
+      - ./slides:/app/slides:ro

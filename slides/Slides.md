@@ -9,6 +9,37 @@ footer: 'https://Nimok.com'
 
 ---
 
+## Gestión de Grupos de Suscripciones
+
+- **Control Centralizado**: Gestionar múltiples suscripciones de Azure desde una única jerarquía de grupos de administración
+- **Aplicación de Políticas**: Aplicar políticas de gobierno de manera consistente en todas las suscripciones del grupo
+- **Gestión de Costos**: Rastrear y asignar costos entre diferentes equipos y proyectos
+- **Control de Acceso**: Implementar control de acceso basado en roles (RBAC) a escala
+- **Cumplimiento**: Asegurar que se cumplan los requisitos regulatorios y organizacionales
+- **Visibilidad**: Obtener una vista unificada de recursos y gastos en todas las suscripciones
+
+<!-- La gestión de grupos de suscripciones proporciona estructura organizacional y gobierno para entornos de Azure -->
+
+---
+
+## Ejemplo de Jerarquía de Grupos
+
+<div class="mermaid">
+flowchart TD
+    Root["Grupo Raíz"]
+    Root --> Prod["Producción"]
+    Root --> Dev["Desarrollo"]
+    Root --> Test["Pruebas"]
+    Prod --> ProdSub1["Suscripción Prod 1"]
+    Prod --> ProdSub2["Suscripción Prod 2"]
+    Dev --> DevSub["Suscripción Dev"]
+    Test --> TestSub["Suscripción Test"]
+</div>
+
+<!-- Ejemplo simplificado de cómo organizar suscripciones en grupos de administración -->
+
+---
+
 <!-- Speaker Notes -->
 ## 2. Gobierno Cloud
 

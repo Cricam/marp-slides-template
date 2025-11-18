@@ -1,0 +1,39 @@
+# Git files
+.git
+.gitignore
+.gitattributes
+
+# GitHub files
+.github
+
+# DevContainer
+.devcontainer
+
+# Documentation
+README.md
+LICENSE
+
+# Node modules (if any)
+node_modules
+npm-debug.log
+
+# Output and build artifacts
+output
+*.pdf
+*.pptx
+
+# IDE and editor files
+.vscode
+.idea
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Docker files (no need to copy into image)
+Dockerfile
+docker-compose.yml
+.dockerignore
