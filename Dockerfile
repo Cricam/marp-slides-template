@@ -29,7 +29,7 @@ RUN mkdir -p /app/output
 # Create a startup script to generate slides and serve them
 RUN echo '#!/bin/sh' > /app/start.sh && \
     echo 'echo "Building Marp slides..."' >> /app/start.sh && \
-    echo 'marp slides/Slides.md --html --allow-local-files --theme-set slides/themes/ -o output/index.html' >> /app/start.sh && \
+    echo 'marp slides/Migracion-aplicaciones-IaaS-a-PaaS-Mutuales.md --html --allow-local-files --theme-set slides/themes/ -o output/index.html' >> /app/start.sh && \
     echo 'echo "Slides built successfully!"' >> /app/start.sh && \
     echo 'echo "Starting web server on port 8080..."' >> /app/start.sh && \
     echo 'http-server output -p 8080' >> /app/start.sh && \
